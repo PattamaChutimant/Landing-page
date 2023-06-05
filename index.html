@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>LandingPage Coca-Cola Italy</title>
+    </head>
+
+    <body>   
+        <img src="image/famobralogo.png" class="logo">
+        <img src="image/colabannertext.png" class="banner">
+
+        <h2>We offer three quatity options</h2>
+            <p>You may choose one by clicking on the image you prefer</p>
+            
+        <img src="image/colachoicedarkgreen.png" class="choice">
+
+        <h1>Order request form</h1>
+       <form id="regForm" action="/action_page.php">
+           
+            <div class="tab">
+                <p>You have only three steps away, please fill-out your information.</p>
+                <p><input placeholder="Company name" oninput="this.className = ''" name="name"></p>
+            
+                <p><input placeholder="Company email" oninput="this.className = ''" name="email"></p>
+
+            </div>
+            <div class="tab">
+                <p>You're doing fine at this moment.</p>
+                <p><input placeholder="Company address" oninput="this.className = ''" name="address"></p>
+                <p><input placeholder="Company phone" oninput="this.className = ''" name="phone"></p>
+            </div>
+
+            <div class="tab">
+                <p>You're nearly done!</p>
+                <p><input placeholder="Contact name" oninput="this.className = ''" name="name"></p>
+
+                <p><input placeholder="Website" oninput="this.className = ''" name="url"></p>
+
+                <p><input placeholder="Delivery country" oninput="this.className = ''" name="country"></p>
+            </div>
+
+            <div class="tab">
+                <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+
+                <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+            </div>
+
+            <div style="overflow:auto;">
+             <div style="float:right;">
+              <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+              <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+
+          <div class="bar">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+          </div>
+        </form>
+    </div>
+
+    <h3>Coca-Cola Classic wholesale order information</h3>
+        <p class="offer">Our stock is available for delivery to anywhere in Italy within seven working days. <br>We handle all the paper work for you at Famobra GmbH. <br>Please noted that cost of pallet and shipping are not included in the price.</p>
+   
+
+    <p>If you are looking for a reliable B2B partner in FMCG. We are more than happy to offer you a partnership and to start with special offer we have for you on Coca-Cola Classic, exclusively for Italy!</p>
+
+   <a href="info@famobra.com" class="button">Contact us</a>
+
+
+    <footer>
+        <div class="footer">
+        <p>Famobra GmbH<br>Industriweg 10<br>Harrislee<br>Germany</p>
+        <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>www.famobra.com</p>      
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>  
